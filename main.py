@@ -7,3 +7,10 @@
 # Main file for running the program.
 #
 ######################################################################################################################################################
+
+# imports
+from jukebox import Jukebox
+
+def main() -> None: Jukebox()
+
+if __name__ == '__main__': main()
